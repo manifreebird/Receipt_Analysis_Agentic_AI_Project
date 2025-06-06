@@ -1,0 +1,33 @@
+# CrewAI Framework
+crewai==0.28.8
+
+# Google Gemini Integration
+langchain-google-genai==1.0.3
+google-generativeai==0.5.0
+
+# PDF Processing
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+
+# Environment Management
+python-dotenv==1.0.0
+
+# Core LangChain Dependencies
+langchain==0.1.20
+langchain-core==0.1.52
+langchain-community==0.0.38
+
+# Additional Utilities
+typing-extensions==4.11.0
+pydantic==2.7.1
+requests==2.31.0
+
+# Optional: For creating test PDFs (remove if not needed)
+reportlab==4.2.0
+
+# Optional: For better JSON handling
+orjson==3.10.3
+
+# Optional: For enhanced logging and debugging
+rich==13.7.1
+colorama==0.4.6
