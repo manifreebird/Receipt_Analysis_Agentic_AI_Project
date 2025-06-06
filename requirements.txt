@@ -1,9 +1,9 @@
 # CrewAI Framework
-crewai==0.28.8
+crewai
 
 # Google Gemini Integration
-langchain-google-genai==1.0.3
-google-generativeai==0.5.0
+langchain-google-genai
+google-generativeai
 
 # PDF Processing
 PyPDF2==3.0.1
