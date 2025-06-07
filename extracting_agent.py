@@ -48,7 +48,7 @@ def main():
     if not api_key:
         raise ValueError("GEMINI_API_KEY not found in environment variables!")
 
-    pdf_folder = r"C:\Users\jayan\OneDrive\Desktop\Receipt_Analysis_Agentic_AI_Project\receipt_pdfs"
+    pdf_folder = r"/path/Receipt_Analysis_Agentic_AI_Project\receipt_pdfs"
     
     # Extract text from PDFs
     all_text = extract_text_from_pdfs(pdf_folder)
